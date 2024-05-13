@@ -1,0 +1,131 @@
+.block1{
+    width:200px;
+    height:300px;
+    background-color: pink;
+    animation-name: Color;
+    animation-duration:5s;
+    animation-timing-function: ease-out;
+    animation-delay:0s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes Color{
+    0%{ background-color:pink;}
+    
+    25%{ background-color: purple;}
+
+    50%{ background-color: blue;}
+
+    75%{ background-color:purple;}
+
+    100%{ background-color:pink;}
+}
+.block1 h1{
+    text-align:center;
+    font-size:35px;
+    color:black;
+    animation-name: text;
+    animation-duration:7s;
+    animation-timing-function: linear;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text{
+    from{padding-left:0%;}
+    to{padding-left:100%;}
+
+}
+
+.block2{
+    width:200px;
+    height:300px;
+    background-color:green;
+    margin-top:20px;
+    animation-name:size;
+    animation-duration:5s;
+    animation-timing-function: ease-out;
+    animation-delay:0s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+@keyframes size{
+    0%{width:180px;
+    height:280px;}
+
+    25%{width:160px;
+    height:260px;}
+    
+    50%{width:140px;
+    height:240px;}
+
+    75%{width:120px;
+    height:220px;}
+
+    100%{width:110px;
+    height:210px;}
+}
+
+.block3{
+    width:200px;
+    height:300px;
+    background-color:aqua;
+    margin-top:20px;
+    animation-name:radius;
+    animation-duration:5s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    animation-iteration-count: 5;
+}
+
+@keyframes radius{
+    0%{border-radius:15px;}
+
+    100%{border-radius:50%;}
+}
+
+.block4{
+    width:100%;
+    height:300px;
+}
+
+.block4 h2{
+    text-align:center;
+    font-size:50px;
+    animation-name: text2;
+    animation-duration:4s;
+    animation-timing-function: linear;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text2{
+    from{font-size:50px;
+    color:blue;}
+    to{font-size:100px;
+    color:green;}
+}
+
+.block5{
+    width:200px;
+    height:300px;
+    background-color: coral;
+    animation-name:location;
+    animation-duration:8s;
+    animation-timing-function: ease-out;
+    animation-delay:0s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes location{
+    from{margin-left:0%;}
+    to{margin-left:100%;}
+}
